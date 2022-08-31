@@ -41,6 +41,7 @@ Future<void> main() async {
   await windowManager.setMaximumSize(const Size(618, 1200));
   await windowManager.setSize(const Size(309, 600));
   await windowManager.setAspectRatio(0.54);
+  await windowManager.setMaximizable(false);
   await windowManager.setTitle('FCalc');
 
   runApp(const FCalcApp());
